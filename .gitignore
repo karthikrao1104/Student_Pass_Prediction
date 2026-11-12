@@ -1,0 +1,58 @@
+
+# ==================================
+# PYTHON
+# ==================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python environment variables
+.env
+.env.*
+
+# ==================================
+# DJANGO
+# ==================================
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Django logs
+*.log
+
+# ==================================
+# REACT / NODE
+# ==================================
+node_modules/
+dist/
+build/
+.vite/
+
+# ==================================
+# MACHINE LEARNING
+# ==================================
+# Uncomment these if models should not be uploaded
+# *.pkl
+# *.joblib
+# *.h5
+# *.keras
+
+# ==================================
+# IDE / EDITORS
+# ==================================
+.vscode/
+.idea/
+
+# ==================================
+# SYSTEM FILES
+# ==================================
+.DS_Store
+Thumbs.db
+desktop.ini
